@@ -2,36 +2,24 @@
 Event templates
 ===============
 
-The Odoo *Events* application provides the ability to customize and configure event templates, which
-can be used to expedite the event-creation process.
+Odoo **Events** provides users the ability to create and configure event templates, which are used
+to automatically populate :doc:`event forms <create_events>`.
 
-These templates can be created and personalized in the application, and then selected from an event
-form, in order to quickly apply a series of settings and elements to the new event, all of which can
-be further modified, if needed.
+Event templates dashboard
+=========================
 
-Event templates page
-====================
-
-In the Odoo *Events* application, event templates can quickly be created and modified.
-
-To begin, navigate to :menuselection:`Events app --> Configuration --> Event Templates`. Doing so
-reveals the :guilabel:`Event Templates` page. Here, find all the existing event templates in the
-database.
+To view and manage event templates, navigate to :menuselection:`Events app --> Configuration -->
+Event Templates`.
 
 .. image:: event_templates/event-templates-page.png
-   :align: center
    :alt: The Event Templates page in the Odoo Events application.
 
-By default, Odoo provides three pre-configured event templates: :guilabel:`Exhibition`,
-:guilabel:`Training`, and :guilabel:`Sport`, which all have their own unique customizations applied
-to them.
+By default, Odoo provides three preconfigured event templates with unique configurations:
+:guilabel:`Exhibition`, :guilabel:`Training`, and :guilabel:`Sport`.
 
-To change how these event templates appear on the *Template* drop-down field on an event form,
-drag-and-drop them into any desired order, using the :icon:`oi-draggable` :guilabel:`(draggable)`
-icon, located to the left of each event template line on the :guilabel:`Event Templates` page.
-
-.. seealso::
-   To learn more about event forms, refer to the :doc:`create_events` documentation.
+.. tip::
+   Drag-and-drop the event templates using the :icon:`oi-draggable` :guilabel:`(draggable)` icon
+   to change the order in which they appear on the *Template* drop-down field on an event form.
 
 Create event template
 =====================
